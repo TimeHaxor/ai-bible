@@ -1,0 +1,274 @@
+.
+├── README.md
+├── __pycache__
+│   ├── dataset.cpython-310.pyc
+│   ├── dataset.cpython-311.pyc
+│   ├── localfile.cpython-310.pyc
+│   ├── localfile.cpython-311.pyc
+│   ├── model.cpython-311.pyc
+│   ├── preprocesor.cpython-310.pyc
+│   ├── preprocesor.cpython-311.pyc
+│   ├── train.cpython-310.pyc
+│   ├── train.cpython-311.pyc
+│   ├── vidcard.cpython-310.pyc
+│   └── vidcard.cpython-311.pyc
+├── bibles
+│   ├── 20cNT.bbl.json
+│   ├── AFV+.bbl.json
+│   ├── AFV.bbl.json
+│   ├── BHSE.bbl.json
+│   ├── BHSEk.bbl.json
+│   ├── BHSEri.bbl.json
+│   ├── BHSErik.bbl.json
+│   ├── Bible.json.sav
+│   ├── Byzantine2005.bbl.json
+│   ├── Details.json
+│   ├── ETCBC.bbl.json
+│   ├── GRVx.bbl.json
+│   ├── HB2.bbl.json
+│   ├── HGPD.bbl.json
+│   ├── HebrewBible.bbl.json
+│   ├── HiSB.bbl.json
+│   ├── JMNT.bbl.json
+│   ├── LighthouseBible.bbl.json
+│   ├── OEBcw.bbl.json
+│   ├── OEBus.bbl.json
+│   ├── OGNTe.bbl.json
+│   ├── OpenGNT.bbl.json
+│   ├── OpenGNTOTLA.bbl.json
+│   ├── OpenGNTa.bbl.json
+│   ├── OpenGNTbe.bbl.json
+│   ├── OpenGNTk.bbl.json
+│   ├── OpenGNTnet.bbl.json
+│   ├── OpenHB-LA.bbl.json
+│   ├── OpenHB-NET.bbl.json
+│   ├── OpenHB-Parallel.bbl.json
+│   ├── OpenHB.bbl.json
+│   ├── OpenHBa.bbl.json
+│   ├── abp.bbl.json
+│   ├── akjv.bbl.json
+│   ├── alxx.bbl.json
+│   ├── asv.bbl.json
+│   ├── bbe.bbl.json
+│   ├── berean-bib.bbl.json
+│   ├── berean-interlinear.bbl.json
+│   ├── bible-list-extented.json
+│   ├── bible-list.json
+│   ├── bible-list1.json
+│   ├── bible-list2.json
+│   ├── bishops.bbl.json
+│   ├── byz2005++.bbl.json
+│   ├── coverdale.bbl.json
+│   ├── drc.bbl.json
+│   ├── ebr.bbl.json
+│   ├── emtv.bbl.json
+│   ├── erv.bbl.json
+│   ├── formatted.bbl.json.sav
+│   ├── formatted.json.sav
+│   ├── geneva.bbl.json
+│   ├── great.bbl.json
+│   ├── hnv.bbl.json
+│   ├── isv.bbl.json
+│   ├── jfix
+│   ├── kjv.bbl.json
+│   ├── kjv2000.bbl.json
+│   ├── kjvlite.bbl.json
+│   ├── leb.bbl.json
+│   ├── logos.bbl.json
+│   ├── lxxe.bbl.json
+│   ├── matthew.bbl.json
+│   ├── merge.py
+│   ├── mgnt.bbl.json
+│   ├── mkjv.bbl.json
+│   ├── net.bbl.json
+│   ├── nheb-an.bbl.json
+│   ├── nheb-je.bbl.json
+│   ├── nheb-jm.bbl.json
+│   ├── nheb-me.bbl.json
+│   ├── nheb-yhwh.bbl.json
+│   ├── nheb.bbl.json
+│   ├── py1.py
+│   ├── rnkjv.bbl.json
+│   ├── slt.bbl.json
+│   ├── t4t.bbl.json
+│   ├── tanakh++.bbl.json
+│   ├── tanakh+.bbl.json
+│   ├── tanakh.bbl.json
+│   ├── tmp
+│   ├── tyndale.bbl.json
+│   ├── udb.bbl.json
+│   ├── ukjv.bbl.json
+│   ├── ulb.bbl.json
+│   ├── ult.bbl.json
+│   ├── ust.bbl.json
+│   ├── vw.bbl.json
+│   ├── web.bbl.json
+│   ├── webbe.bbl.json
+│   ├── webbme.bbl.json
+│   ├── webme.bbl.json
+│   ├── webster.bbl.json
+│   ├── webu.bbl.json
+│   ├── wesley.bbl.json
+│   ├── weymouth-jm.bbl.json
+│   ├── weymouth-me.bbl.json
+│   ├── weymouth.bbl.json
+│   ├── wpnt.bbl.json
+│   ├── wycliffe.bbl.json
+│   ├── ylt.bbl.json
+│   └── η-καινη-διαθηκη-του-ιησου-χριστου.bbl.json
+├── chat.py
+├── dataset.py
+├── localfile.py
+├── main.py
+├── mybibles
+│   ├── *.bbl.mybibles
+│   ├── 20cNT.bbl.mybible
+│   ├── 20cNT.bbl.mybible.db
+│   ├── 20cNT.bbl.sqbpro
+│   ├── AFV+.bbl.mybible
+│   ├── AFV+.bbl.mybible.db
+│   ├── AFV+.dct.mybible
+│   ├── AFV.bbl.mybible
+│   ├── BHSE.bbl.mybible
+│   ├── BHSE.dct.mybible
+│   ├── BHSEk.bbl.mybible
+│   ├── BHSEri.bbl.mybible
+│   ├── BHSErik.bbl.mybible
+│   ├── Byzantine2005.bbl.mybible
+│   ├── Concordancia OGNTe+.dct.mybible
+│   ├── ETCBC.bbl.mybible
+│   ├── ETCBC.dct.mybible
+│   ├── GRVx.bbl.mybible
+│   ├── Gesenius.dct.mybible
+│   ├── GreekGrammar.bok.mybible
+│   ├── HB2.bbl.mybible
+│   ├── HGPD.bbl.mybible
+│   ├── HL.dct.mybible
+│   ├── HebrewBible.bbl.mybible.zip
+│   ├── HebrewGrammar.bok.mybible
+│   ├── HiSB.bbl.mybible
+│   ├── JMNT.bbl.mybible
+│   ├── KoineGreek.ttf
+│   ├── LighthouseBible.bbl.mybible
+│   ├── Mounce.dct.mybible
+│   ├── OEBcw.bbl.mybible
+│   ├── OEBus.bbl.mybible
+│   ├── OGNTe.bbl.mybible
+│   ├── OGNTe_Morf.dct.mybible
+│   ├── OpenGNT.bbl.mybible
+│   ├── OpenGNTLexicon.dct.mybible
+│   ├── OpenGNTOTLA.bbl.mybible
+│   ├── OpenGNTRMAC.dct.mybible
+│   ├── OpenGNTa.bbl.mybible
+│   ├── OpenGNTbe.bbl.mybible
+│   ├── OpenGNTd.dct.mybible
+│   ├── OpenGNTk.bbl.mybible
+│   ├── OpenGNTnet.bbl.mybible
+│   ├── OpenHB-BDB.dct.mybible
+│   ├── OpenHB-BHSMorphology.dct.mybible
+│   ├── OpenHB-LA.bbl.mybible
+│   ├── OpenHB-NET.bbl.mybible
+│   ├── OpenHB-Parallel.bbl.mybible
+│   ├── OpenHB.bbl.mybible
+│   ├── OpenHBLexicon.dct.mybible
+│   ├── OpenHBa.bbl.mybible
+│   ├── OpenHBd.dct.mybible
+│   ├── SEC.dct.mybible
+│   ├── abp.bbl.mybible
+│   ├── abp.bbl.mybible.db
+│   ├── akjv.bbl.mybible
+│   ├── alxx.bbl.mybible
+│   ├── asv.bbl.mybible
+│   ├── bbe.bbl.mybible
+│   ├── berean-bib.bbl.mybible
+│   ├── berean-interlinear.bbl.mybible
+│   ├── berean-interlinear.dct.mybible
+│   ├── bishops.bbl.mybible
+│   ├── byz2005++.bbl.mybible
+│   ├── coverdale.bbl.mybible
+│   ├── drc.bbl.mybible
+│   ├── ebr.bbl.mybible
+│   ├── emtv.bbl.mybible
+│   ├── erv.bbl.mybible
+│   ├── geneva.bbl.mybible
+│   ├── great.bbl.mybible
+│   ├── hnv.bbl.mybible
+│   ├── isv.bbl.mybible
+│   ├── kjv.bbl.mybible
+│   ├── kjv2000.bbl.mybible
+│   ├── kjvlite.bbl.mybible
+│   ├── leb.bbl.mybible
+│   ├── logos.bbl.mybible
+│   ├── lxxe.bbl.mybible
+│   ├── matthew.bbl.mybible
+│   ├── mgnt.bbl.mybible
+│   ├── mkjv.bbl.mybible
+│   ├── mod.py
+│   ├── mod2.py
+│   ├── mod3.py
+│   ├── net.bbl.mybible
+│   ├── nheb-an.bbl.mybible
+│   ├── nheb-je.bbl.mybible
+│   ├── nheb-jm.bbl.mybible
+│   ├── nheb-me.bbl.mybible
+│   ├── nheb-yhwh.bbl.mybible
+│   ├── nheb.bbl.mybible
+│   ├── rmac.dct.mybible
+│   ├── rnkjv.bbl.mybible
+│   ├── slt.bbl.mybible
+│   ├── t4t.bbl.mybible
+│   ├── tanakh++.bbl.mybible
+│   ├── tanakh+.bbl.mybible
+│   ├── tanakh.bbl.mybible
+│   ├── tyndale.bbl.mybible
+│   ├── udb.bbl.mybible
+│   ├── ukjv.bbl.mybible
+│   ├── ulb.bbl.mybible
+│   ├── ult.bbl.mybible
+│   ├── ust.bbl.mybible
+│   ├── vw.bbl.mybible
+│   ├── web.bbl.mybible
+│   ├── webbe.bbl.mybible
+│   ├── webbme.bbl.mybible
+│   ├── webme.bbl.mybible
+│   ├── webster.bbl.mybible
+│   ├── webu.bbl.mybible
+│   ├── wesley.bbl.mybible
+│   ├── weymouth-jm.bbl.mybible
+│   ├── weymouth-me.bbl.mybible
+│   ├── weymouth.bbl.mybible
+│   ├── wpnt.bbl.mybible
+│   ├── wycliffe.bbl.mybible
+│   ├── ylt.bbl.mybible
+│   └── η-καινη-διαθηκη-του-ιησου-χριστου.bbl.mybible
+├── output.log
+├── preprocesor.py
+├── pretrained.save
+│   ├── config.json
+│   ├── merges.txt
+│   ├── pretrained
+│   │   ├── README.md
+│   │   ├── config.json
+│   │   ├── merges.txt
+│   │   ├── pytorch_model.bin
+│   │   ├── special_tokens_map.json
+│   │   ├── stats.png
+│   │   ├── tokenizer_config.json
+│   │   └── vocab.json
+│   ├── special_tokens_map.json
+│   ├── tokenizer_config.json
+│   ├── vidcard.pth
+│   └── vocab.json
+├── repo.py
+├── source_add.py
+├── stats.png
+├── tmp
+│   ├── 1
+│   └── 2
+├── train.py
+├── tree
+├── vidcard.py
+├── x
+└── x.py
+
+6 directories, 265 files
